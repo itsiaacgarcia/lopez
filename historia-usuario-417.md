@@ -5,7 +5,7 @@
 
 ## Historia de Usuario
 
-**Como** (user **Organizador de eventos de la comunidad ITESO (alumno, profesor o empleado con rol de creador/organizador de eventos en ConviveITESO)**), quiero **gestionar el ciclo de vida completo de un evento a través de estados definidos (borrador, pendiente, aprobado, publicado, rechazado, cancelado, finalizado y pospuesto)**, para **controlar la visibilidad, el flujo de aprobación, la operación y el cierre de mis eventos de manera consistente, auditable y alineada con las políticas de la plataforma ConviveITESO**.
+**Como** (Organizador de eventos de la comunidad ITESO (alumno, profesor o empleado con rol de creador/organizador de eventos en ConviveITESO)), quiero **gestionar el ciclo de vida completo de un evento a través de estados definidos (borrador, pendiente, aprobado, publicado, rechazado, cancelado, finalizado y pospuesto)**, para **controlar la visibilidad, el flujo de aprobación, la operación y el cierre de mis eventos de manera consistente, auditable y alineada con las políticas de la plataforma ConviveITESO**.
 
 ---
 
@@ -105,7 +105,7 @@ Pospuesto → Finalizado (automático al vencer la nueva fecha, o manual por adm
 - [ ] Todo cambio de estado genera un registro de auditoría con: estado anterior, estado nuevo, usuario responsable, timestamp y motivo (si aplica).
 - [ ] El detalle del evento muestra de forma destacada el estado actual (etiqueta/badge visual), especialmente cuando es Cancelado, Rechazado o Pospuesto.
 
-*(18 criterios: se excede 12 por la complejidad del ciclo de vida, los múltiples roles, las transiciones, la auditoría y la integración con otros módulos de ConviveITESO.)*
+*(18 criterios: se exceden los 12 por la complejidad del ciclo de vida, los múltiples roles, las transiciones, la auditoría y la integración con otros módulos de ConviveITESO.)*
 
 ---
 
